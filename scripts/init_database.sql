@@ -1,6 +1,8 @@
 
 ## This script creates a new database called  DataWarehouse.
-USE master;
+## WARNING: If the database exist, it is going to drop it and create new one ##
+
+  USE master;
 Go
 -- Drop and recreate the 'DataWarehouse' database
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
