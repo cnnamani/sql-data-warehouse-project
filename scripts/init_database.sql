@@ -1,3 +1,5 @@
+
+## This script creates a new database called  DataWarehouse.
 USE master;
 Go
 -- Drop and recreate the 'DataWarehouse' database
