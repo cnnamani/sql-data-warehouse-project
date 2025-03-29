@@ -1,5 +1,5 @@
 
-/*This script creates a new database called  DataWarehouse.
+/*This script creates a new database and Schema called  DataWarehouse.
  WARNING: If the database exist, it is going to drop it and create new one */
 
   USE master;
